@@ -1,0 +1,28 @@
+# Brugada Syndrome Detection — HybridECGNet + XGBoost Fusion
+# Python 3.12 (tested on Kaggle kernel)
+
+# ── ECG / Biosignal Processing ────────────────────────────────────────────────
+wfdb>=4.1.2
+neurokit2>=0.2.9
+
+# ── Deep Learning ─────────────────────────────────────────────────────────────
+torch>=2.2.0          # CPU build is fine; install CUDA build for GPU acceleration
+
+# ── Gradient Boosting ─────────────────────────────────────────────────────────
+xgboost>=2.0.3
+
+# ── Machine Learning Utilities ────────────────────────────────────────────────
+scikit-learn>=1.4.0
+
+# ── Explainability ────────────────────────────────────────────────────────────
+shap>=0.45.0
+
+# ── Data ──────────────────────────────────────────────────────────────────────
+numpy>=1.26.0
+pandas>=2.2.0
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib>=3.8.0
+
+# ── Progress Bars ─────────────────────────────────────────────────────────────
+tqdm>=4.66.0
